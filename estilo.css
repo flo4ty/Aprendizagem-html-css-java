@@ -1,21 +1,24 @@
-table{ /** Faz o estilo da tabela inteira. **/
-    background: orange; /** Coloca um fundo laranja. **/
-    border-color: blue; /** Insere a borda azul. **/
-    border-style: dotted; /** Define a borda pontilhada. **/
- }
- tr{/** Faz o estilo para as linhas. **/
-    text-align: center; /** Centraliza o conteúdo. **/
- }
- th{/** Faz o estilo para as células do cabeçalho. **/
-    background: #666; /** Muda para um fundo cinza. **/
-    color: white; /** Troca a cor da fonte para branco. **/
- }
- td .esquerda{ /** É feito o estilo das celulas com o auxilio de uma classe. **/
-    text-align: left; /**Alinha o texto da primeira coluna para esquerda. **/
- }
- td .centro{
-    text-align: center; /**Centraliza o texto. **/
- }
- td .direita{
-    text-align: right; /**Coloca o texto para esquerda. **/
- } 
+@charset "UTF-8";
+
+body { background-color: whitesmoke  ;
+       color: black;
+       font-size: 12pt;
+       font-family: arial;}
+
+.imagem-head{ display: block;
+   margin-left: auto;
+   margin-right: auto; padding: 25px 29px;}
+
+#titulo-principal {color: black; text-align: center;}
+.titulo-2 {color:rgb(131, 24, 231)}
+.link-curso { font-style: italic; font-weight: bold; color: black;}
+
+table{ 
+   background: whitesmoke; 
+   border-color: rgb(129, 124, 197); 
+   border-style:solid;
+   width: 25%;  height: 50px;}
+   th, td {
+      padding: 05px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;}
