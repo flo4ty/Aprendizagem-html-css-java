@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
-body { background-color: whitesmoke  ;
-       color: black;
-       font-size: 12pt;
-       font-family: arial;}
+body {background-color: whitesmoke;color: black;font-size:12pt;font-family: arial;}
 
-.imagem-head{ display: block;
-   margin-left: auto;
-   margin-right: auto; padding: 25px 29px;}
+.menu{list-style:none;border:1px solid #c0c0c0;float:center;}
+.menu li{position:relative;float:left;border-right:1px solid #c0c0c0;}
+.menu li a{color:#333; text-decoration:none; padding:5px 5px; display:block;}
+.menu li a:hover{
+   background:#333;
+   color:#fff;
+   -moz-box-shadow:0 3px 5px 0 #CCC;
+   -webkit-box-shadow:0 3px 5px 0 #ccc;
+   text-shadow:0px 0px 5px #fff;
+   }
+.menu li ul{position:absolute;top:25px;left:0;background-color:#fff;display:none}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{border:1px solid #c0c0c0;display:block;width:110px;}
 
-#titulo-principal {color: black; text-align: center;}
+#titulo-principal {color: black; text-align: center; margin:5%} 
 .titulo-2 {color:rgb(131, 24, 231)}
 .link-curso { font-style: italic; font-weight: bold; color: black;}
 
-table{ 
-   background: whitesmoke; 
-   border-color: rgb(129, 124, 197); 
-   border-style:solid;
-   width: 25%;  height: 50px;}
-   th, td {
-      padding: 05px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;}
+.imagem-head{ display: block;margin-left: auto;margin-right: auto; padding: 25px 29px;}
+
