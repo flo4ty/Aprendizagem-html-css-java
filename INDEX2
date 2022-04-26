@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Iconka-Cat-Commerce-Client.ico" type="image/x-icon">
+    <title>Costumer Sucess </title> 
+    <link href="estilo.css" rel="stylesheet"> 
+</head>
+<body>
+        <nav> 
+        <ul class="menu">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">Sobre </a> </li>
+            <li> <a href="#"> Mais sobre CS </a> 
+            <ul> 
+                <li> <a href="#">Métricas</a></li>
+                <li> <a href="#">Cases</a></li>
+                <li> <a href="#">Material de Apoio</a></li>
+            </ul>
+            </li>
+            <li> <a href="#">Contato</a> </li>  
+        </ul> 
+    </nav>
+    <div class="cabecalho" >
+    <h1 id="titulo-principal"> Costumer Sucess</h1>
+    </div>   
+    <h2 class="titulo-2"> O que é Costumer Sucess? </h2>
+    <div class="conteudo1">  <p><i>Costumer Sucess</i> não é apenas uma moda entre as empresas atualmente. </p> </div>
+    <h2 class="titulo-2"> Conceitos e objetivos </h2>
+    <h2 class="titulo-2"> Jornada do cliente </h2>
+    <h2 class="titulo-2">Como implantar </h2>
+   
+    <p> Se quiser saber mais sobre Costumer Sucess o Sebrea oferece um curso gratuito, que pode ser acessado no link:
+    <a href="https://www.sebrae.com.br/sites/PortalSebrae/cursosonline/customer-success-como-conquistar-e-manter-clientes,b190b8a6a28bb610VgnVCM1000004c00210aRCRD" class="link-curso"  target="_blank">  Customer Success como conquistar e manter clientes </a> 
+ </p> 
+ 
+
+
+</body>
+</html>
