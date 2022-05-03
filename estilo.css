@@ -1,24 +1,60 @@
 @charset "UTF-8";
 
-body {background-color: whitesmoke;color: black;font-size:12pt;font-family: arial;}
+body {background-color: rgb(234, 232, 247);color: black;font-size:12pt;font-family: arial;}
 
+/*MENU*/
 .menu{list-style:none;border:1px solid #c0c0c0;float:center;}
-.menu li{position:relative;float:left;border-right:1px solid #c0c0c0;}
+.menu li{position:relative;float:left;border-right:1px solid #fffdfd;}
 .menu li a{color:#333; text-decoration:none; padding:5px 5px; display:block;}
 .menu li a:hover{
-   background:#333;
+   background:rgb(0, 0, 0);
    color:#fff;
-   -moz-box-shadow:0 3px 5px 0 #CCC;
+   -moz-box-shadow:0px 1px 5px 0 #CCC;
    -webkit-box-shadow:0 3px 5px 0 #ccc;
-   text-shadow:0px 0px 5px #fff;
+   text-shadow:0px 0px 5px rgb(255, 255, 255);
    }
-.menu li ul{position:absolute;top:25px;left:0;background-color:#fff;display:none}
+.menu li ul{position:absolute;top:30px;left:0;background-color:#fff;display:none}
 .menu li:hover ul, .menu li.over ul{display:block;}
-.menu li ul li{border:1px solid #c0c0c0;display:block;width:110px;}
+.menu li ul li{border:0px solid #ffffff;display:block;width:90px;}
 
-#titulo-principal {color: black; text-align: center; margin:5%} 
-.titulo-2 {color:rgb(131, 24, 231)}
+/*CONTEUDO*/
+
+#titulo-principal {color: rgb(0, 0, 0); text-align: center; margin:5%; } 
+.titulo-2 {color:rgb(0, 0, 0)}
 .link-curso { font-style: italic; font-weight: bold; color: black;}
+p{line-height: 20px;text-align: justify;}
+.post-image {position:auto;  
+   top:80;
+   left:90%;
+   margin-top: 25px;
+   margin-left: 300px;
+   margin-bottom:45px;}
 
-.imagem-head{ display: block;margin-left: auto;margin-right: auto; padding: 25px 29px;}
+div.container {
+   text-align: justify;
+   width: 990px;
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 10px;
+   margin:2%;
+}
+
+.footer {
+   padding-left: 5px;
+}
+.contact_list li a {
+   text-decoration: none;
+   color: black;
+   font-weight:500
+}
+
+.contact_list {
+   list-style-type: none;
+   padding-left: 5px; 
+}
+
+div.footer {
+   text-align: center;
+}
+
 
